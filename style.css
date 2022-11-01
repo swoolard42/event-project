@@ -64,6 +64,7 @@ nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    font-family: 'Inria Sans', sans-serif;
   }
 
 nav li {
@@ -153,20 +154,23 @@ nav a:hover {
   }
 
   .registration h2 {
-    font-size: 2em;
+    font-size: 2.5em;
     color: white;
   }
 
   .registration h3 {
     font-size: 1.5em;
+    font-family: 'Inria Sans', sans-serif;
     color: white;
   }
 
   .registration h4 {
-    font-size: 1.3em;
+    font-size: 1.5em;
     color: white;
     background-color: #16213E;
     padding: 12px;
+    margin-left: 650px;
+    margin-right: 650px;
   }
 
   button {
@@ -180,6 +184,8 @@ nav a:hover {
     padding-left: 50px;
     padding-right: 50px;
     margin: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   button:hover {
@@ -195,4 +201,29 @@ nav a:hover {
     color: white;
     font-family: 'Bebas Neue', sans-serif;
     border-radius: 0px;
+}
+
+.confirm-button img {
+    padding: 5px;
+   
+}
+
+/*Introduction*/
+
+.indroduction {
+    display: inline-block;
+}
+
+.introduction h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.6em;
+}
+
+.introduction p {
+    font-family: 'HeadlandOne', serif;
+    font-size: 20px;
+}
+
+.introduction img {
+    margin: 5px;
 }
