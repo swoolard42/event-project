@@ -16,6 +16,7 @@
 .hero img {
     width: 100%;
     height: 100%;
+    margin: 0;
 }
 
 .navigation {
@@ -150,7 +151,9 @@ nav a:hover {
   .registration {
     font-family:'Bebas Neue', sans-serif;
     background-color: #794969;
+    background-size: cover;
     text-align: center;
+    margin: 0;
   }
 
   .registration h2 {
@@ -211,7 +214,9 @@ nav a:hover {
 /*Introduction*/
 
 .indroduction {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
 }
 
 .introduction h3 {
@@ -226,4 +231,16 @@ nav a:hover {
 
 .introduction img {
     margin: 5px;
+}
+
+/*Testimonials*/
+
+.testimonials h4 {
+ font-family: 'Bebas Neue', sans-serif;
+ font-size: 1.4em;
+}
+
+.testimonials p {
+    font-family: 'HeadlandOne', serif;
+    font-size: 20px;
 }
