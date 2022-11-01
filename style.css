@@ -2,3 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Headland+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap');
+
+/*Navigation*/
+.hero img {
+    width: 100%;
+    height: 100%;
+}
