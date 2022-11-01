@@ -149,20 +149,24 @@ nav a:hover {
   .registration {
     font-family:'Bebas Neue', sans-serif;
     background-color: #794969;
+    text-align: center;
   }
 
   .registration h2 {
     font-size: 2em;
+    color: white;
   }
 
   .registration h3 {
     font-size: 1.5em;
+    color: white;
   }
 
   .registration h4 {
     font-size: 1.3em;
     color: white;
     background-color: #16213E;
+    padding: 12px;
   }
 
   button {
@@ -171,5 +175,24 @@ nav a:hover {
     background-color:#FFF38C;
     font-size: 1.5em;
     border: none;
+    border-radius: 20px;
     padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 15px;
   }
+
+  button:hover {
+    background-color: #FFF9BF;
+  }
+
+.confirm-button {
+    text-align: center;
+}
+
+.confirm-button button {
+    background-color: #16213E;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    border-radius: 0px;
+}
