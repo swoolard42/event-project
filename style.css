@@ -227,7 +227,7 @@ nav a:hover {
     font-family: 'Bebas Neue', sans-serif;
     border-radius: 0px;
     display: flex;
-    margin: 15px auto;
+    margin: 10px auto;
 }
 
 .confirm-button button:hover {
@@ -464,3 +464,69 @@ nav a:hover {
 
 /*Frequently Asked Questions*/
 
+.faq {
+  background:#FFF9BF;
+}
+
+.faq h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 1.2px;
+  font-size: 2.5em;
+  text-align: center; 
+}
+
+.faq-card-1 h2 {
+  font-family: 'Inria Sans', sans-serif;
+  font-size: 2em;
+}
+
+.faq-card-2 h2 {
+  font-family: 'Inria Sans', sans-serif;
+  font-size: 2em;
+}
+
+.faq-card-3 h2 {
+  font-family: 'Inria Sans', sans-serif;
+  font-size: 2em;
+}
+
+.faq-card-4 h2 {
+  font-family: 'Inria Sans', sans-serif;
+  font-size: 2em;
+}
+
+.faq-card-1 h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 1.2px;
+}
+
+.faq-card-2 h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 1.2px;
+}
+
+.faq-card-3 h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 1.2px;
+}
+
+.faq-card-4 h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 1.2px;
+}
+
+.faq-card-1 p {
+  font-family: 'HeadlandOne', serif;
+}
+
+.faq-card-2 p {
+  font-family: 'HeadlandOne', serif;
+}
+
+.faq-card-3 p {
+  font-family: 'HeadlandOne', serif;
+}
+
+.faq-card-4 p {
+  font-family: 'HeadlandOne', serif;
+}
