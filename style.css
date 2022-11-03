@@ -593,8 +593,79 @@ nav a:hover {
   letter-spacing: 1.2px;
 }
 
+.footer h3 {
+  font-family: 'Inria Sans', sans-serif;
+  font-size: 1.4em;
+}
+
+.footer h4 {
+  font-family: 'HeadlandOne', serif;
+  font-size: 0.8em;
+}
+
 .footer-images {
   width: 50%;
   height: 50%;
 }
 
+/*Food Offerings Page*/
+
+.food-offerings h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 1.2px;
+  text-align: center;
+}
+
+.food-card-1 {
+  padding: 10px;
+  margin: 10px auto;
+  color: white;
+  background: #967399;
+  display: flex;
+}
+
+.food-card-1 h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 1.2px;
+  font-size: 1.8em;
+}
+
+.food-card-1 p {
+  font-family: 'HeadlandOne',serif;
+}
+
+.food-card-2 {
+  padding: 10px;
+  margin: 10px auto;
+  color: white;
+  background: #967399;
+  display: flex;
+}
+
+.food-card-2 h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 1.2px;
+  font-size: 1.8em;
+}
+
+.food-card-2 p {
+  font-family: 'HeadlandOne',serif;
+}
+
+.food-card-3 {
+  padding: 10px;
+  margin: 10px auto;
+  color: white;
+  background: #967399;
+  display: flex;
+}
+
+.food-card-3 h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 1.2px;
+  font-size: 1.8em;
+}
+
+.food-card-3 p {
+  font-family: 'HeadlandOne',serif;
+}
