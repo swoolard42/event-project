@@ -195,7 +195,6 @@ nav a:hover {
     padding: 12px;
     width: 250px;
     margin: 15px auto;
-  
   }
 
   button {
@@ -219,6 +218,7 @@ nav a:hover {
 
 .confirm-button {
     text-align: center;
+    margin-bottom: 15px;
 }
 
 .confirm-button button {
@@ -226,73 +226,111 @@ nav a:hover {
     color: white;
     font-family: 'Bebas Neue', sans-serif;
     border-radius: 0px;
+    display: flex;
+    margin: 15px auto;
 }
 
 .confirm-button button:hover {
   background-color: #406080;
 }
 
-.confirm-button img {
-    padding: 5px;
-   
+.confirm-image {
+  display: flex;
+  margin-left: 8px;
 }
 
 /*Introduction*/
 
 .indroduction {
+    padding: 0;
+    margin: 0;
     display: flex;
-    flex-direction: row;
-    align-items: stretch;
+    align-items: center;
 }
 
 .introduction h3 {
     font-family: 'Bebas Neue', sans-serif;
     letter-spacing: 1.2px;
     font-size: 1.6em;
+    
 }
 
 .introduction p {
     font-family: 'HeadlandOne', serif;
     font-size: 20px;
+    
 }
 
-.introduction img {
-    margin: 5px;
+.intro-images {
+  margin: 8px; 
+  flex-basis: 40%
+}
+
+.intro-images img {
+  max-width: 100%;
+  margin: 5px;
 }
 
 /*Testimonials*/
 
+.testimonials {
+  background: #FFF9BF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonials h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2.5em;
+  letter-spacing: 1.2px;
+  margin: 20px;
+}
+
 .testimonials h4 {
  font-family: 'Bebas Neue', sans-serif;
  letter-spacing: 1.2px;
- font-size: 1.4em;
+ font-size: 1.2em;
  color: white;
 }
 
 .testimonials p {
     font-family: 'HeadlandOne', serif;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
+}
+
+.testimonials img {
+  width: 15%;
+  height: 15%;
 }
 
 .t-card-1 {
   background: #16213E;
   padding: 20px;
+  margin: 15px auto;
+  width: 50%;
 }
 
 .t-card-2 {
   background:#994D8C;
   padding: 20px;
+  margin: 15px auto;
+  width: 50%;
 }
 
 .t-card-3 {
   background:#794969;
   padding: 20px;
+  margin: 15px auto;
+  width: 50%;
 }
 
 .t-card-4 {
   background:#406080;
-  padding: 20px;
+  padding: 20px; 
+  margin: 15px auto;
+  width: 50%;
 }
 
 /*Program Details*/
@@ -312,3 +350,117 @@ nav a:hover {
   line-height: 1.5em;
   font-size: 18px;
 }
+
+/*Carousel*/
+
+.main-carousel {
+  display: flex;
+  align-items: center;
+}
+
+/*Performers*/
+
+.performers h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 1.2px;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.perform-card-1 h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 1.2px;
+}
+
+.perform-card-2 h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 1.2px;
+}
+
+.perform-card-3 h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 1.2px;
+}
+
+.perform-card-4 h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 1.2px;
+}
+
+.perform-card-5 h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 1.2px;
+}
+
+.perform-card-1 p {
+  font-family: 'HeadlandOne', serif;
+  font-size: 16px;
+}
+
+.perform-card-2 p {
+  font-family: 'HeadlandOne', serif;
+  font-size: 16px;
+}
+
+.perform-card-3 p {
+  font-family: 'HeadlandOne', serif;
+  font-size: 16px;
+}
+
+.perform-card-4 p {
+  font-family: 'HeadlandOne', serif;
+  font-size: 16px;
+}
+
+.perform-card-5 p {
+  font-family: 'HeadlandOne', serif;
+  font-size: 16px;
+}
+
+.perform-card-1 {
+  background: #FFE666;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  margin: 10px auto;
+}
+
+.perform-card-2 {
+  background: #FFE666;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  margin: 10px auto;
+}
+
+.perform-card-3 {
+  background: #FFE666;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  margin: 10px auto;
+}
+
+.perform-card-4 {
+  background: #FFE666;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  margin: 10px auto;
+}
+
+.perform-card-5 {
+  background: #FFE666;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  margin: 10px auto;
+}
+
+/*Frequently Asked Questions*/
+
