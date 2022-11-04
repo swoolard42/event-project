@@ -241,29 +241,27 @@ nav a:hover {
 
 /*Introduction*/
 
-.indroduction {
+.introduction {
     padding: 0;
     margin: 0;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .introduction h3 {
     font-family: 'Bebas Neue', sans-serif;
     letter-spacing: 1.2px;
     font-size: 1.6em;
-    
 }
 
 .introduction p {
     font-family: 'HeadlandOne', serif;
-    font-size: 20px;
-    
+    font-size: 20px;   
 }
 
 .intro-images {
   margin: 8px; 
-  flex-basis: 40%
+  display: flex;
 }
 
 .intro-images img {
@@ -422,6 +420,7 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 600px;
   padding: 15px;
   margin: 10px auto;
 }
@@ -431,6 +430,7 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 600px;
   padding: 15px;
   margin: 10px auto;
 }
@@ -440,6 +440,7 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 600px;
   padding: 15px;
   margin: 10px auto;
 }
@@ -449,6 +450,7 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 600px;
   padding: 15px;
   margin: 10px auto;
 }
@@ -458,6 +460,7 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 600px;
   padding: 15px;
   margin: 10px auto;
 }
@@ -480,6 +483,9 @@ nav a:hover {
   font-size: 2em;
   color: white;
   background: #16213E;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 50px;
 }
 
 .faq-card-2 h2 {
@@ -487,6 +493,9 @@ nav a:hover {
   font-size: 2em;
   color: white;
   background: #16213E;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 50px;
 }
 
 .faq-card-3 h2 {
@@ -494,6 +503,9 @@ nav a:hover {
   font-size: 2em;
   color: white;
   background: #16213E;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 50px;
 }
 
 .faq-card-4 h2 {
@@ -501,6 +513,9 @@ nav a:hover {
   font-size: 2em;
   color: white;
   background: #16213E;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 50px;
 }
 
 .faq-card-1 h3 {
@@ -553,6 +568,7 @@ nav a:hover {
   margin: 10px auto;
   display: flex;
   align-items: center;
+  width: 800px;
 }
 
 .faq-card-2 {
@@ -561,6 +577,7 @@ nav a:hover {
   margin: 10px auto;
   display: flex;
   align-items: center;
+  width: 800px;
 }
 
 .faq-card-3 {
@@ -569,6 +586,7 @@ nav a:hover {
   margin: 10px auto;
   display: flex;
   align-items: center;
+  width: 800px;
 }
 
 .faq-card-4 {
@@ -577,6 +595,7 @@ nav a:hover {
   margin: 10px auto;
   display: flex;
   align-items: center;
+  width: 800px;
 }
 
 /*Footer*/
