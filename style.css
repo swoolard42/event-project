@@ -297,6 +297,7 @@ nav a:hover {
   font-size: 2.5em;
   letter-spacing: 1.2px;
   margin: 15px;
+  text-align: center;
 }
 
 .testimonials h4 {
@@ -320,41 +321,45 @@ nav a:hover {
 .t-card-1 {
   background: #16213E;
   padding: 20px;
-  margin:0;
+  margin: 5px;;
   width: 35%;
   height: 50%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .t-card-2 {
   background:#994D8C;
   padding: 20px;
-  margin:0;
+  margin: 5px;
   width: 35%;
   height: 50%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .t-card-3 {
   background:#794969;
   padding: 20px;
-  margin:0;
+  margin: 5px;
   width: 35%;
   height: 50%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .t-card-4 {
   background:#406080;
   padding: 20px; 
-  margin:0;
+  margin: 5px;
   width: 35%;
   height: 50%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 /*Program Details*/
@@ -510,12 +515,22 @@ nav a:hover {
   margin: 10px auto;
 }
 
+.perform-cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
 /*Frequently Asked Questions*/
 
 .faq {
   background:#FFF9BF;
   background-size: cover;
   margin-bottom: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 15px;
 }
 
 .faq h1 {
@@ -656,8 +671,8 @@ nav a:hover {
   background: #406080;
   color: white;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
   margin-top: 0;
   padding: 15px;
 }
