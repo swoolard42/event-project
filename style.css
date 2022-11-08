@@ -688,3 +688,58 @@ nav a:hover {
 .food-card-3 p {
   font-family: 'HeadlandOne',serif;
 }
+
+/*Location Page*/
+
+.location h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 1.2px;
+  text-align: center;
+}
+
+.location h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 1.2px;
+  color: white;
+}
+
+.location p {
+  font-family: 'HeadlandOne', serif;
+  color: white;
+}
+
+.location {
+  background:#967399;
+  padding: 10px;
+}
+
+.location-card {
+  display: flex;
+  align-items: center;
+}
+
+.weather h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 1.2px;
+  text-align: center;
+}
+
+.weather h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 1.2px;
+}
+
+.weather p {
+  font-family: 'HeadlandOne', serif;
+}
+
+.weather {
+  background:#FFE666;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.weather-card {
+  display: flex;
+  align-items: center;
+}
