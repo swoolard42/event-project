@@ -242,8 +242,8 @@ nav a:hover {
 /*Introduction*/
 
 .introduction {
-    padding: 0;
-    margin: 0;
+    padding: 10px;
+    margin: 5px auto;
     display: flex;
     align-items: flex-start;
 }
@@ -252,6 +252,7 @@ nav a:hover {
     font-family: 'Bebas Neue', sans-serif;
     letter-spacing: 1.2px;
     font-size: 1.6em;
+    margin-left: 230px;
 }
 
 .introduction p {
@@ -261,11 +262,13 @@ nav a:hover {
 
 .intro-images {
   margin: 8px; 
+  width: 100%;
   display: flex;
 }
 
 .intro-images img {
   max-width: 100%;
+  max-height: 100%;
   margin: 5px;
 }
 
@@ -282,7 +285,7 @@ nav a:hover {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 2.5em;
   letter-spacing: 1.2px;
-  margin: 20px;
+  margin: 15px;
 }
 
 .testimonials h4 {
@@ -307,28 +310,32 @@ nav a:hover {
   background: #16213E;
   padding: 20px;
   margin: 15px auto;
-  width: 50%;
+  width: 35%;
+  height: 50%;
 }
 
 .t-card-2 {
   background:#994D8C;
   padding: 20px;
   margin: 15px auto;
-  width: 50%;
+  width: 35%;
+  height: 50%;
 }
 
 .t-card-3 {
   background:#794969;
   padding: 20px;
   margin: 15px auto;
-  width: 50%;
+  width: 35%;
+  height: 50%;
 }
 
 .t-card-4 {
   background:#406080;
   padding: 20px; 
   margin: 15px auto;
-  width: 50%;
+  width: 35%;
+  height: 50%;
 }
 
 /*Program Details*/
@@ -420,7 +427,8 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 600px;
+  width: 40%;
+  height: 20%;
   padding: 15px;
   margin: 10px auto;
 }
@@ -430,7 +438,8 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 600px;
+  width: 40%;
+  height: 20%;
   padding: 15px;
   margin: 10px auto;
 }
@@ -440,7 +449,8 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 600px;
+  width: 40%;
+  height: 20%;
   padding: 15px;
   margin: 10px auto;
 }
@@ -450,7 +460,8 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 600px;
+  width: 40%;
+  height: 20%;
   padding: 15px;
   margin: 10px auto;
 }
@@ -460,7 +471,8 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 600px;
+  width: 40%;
+  height: 20%;
   padding: 15px;
   margin: 10px auto;
 }
@@ -469,6 +481,7 @@ nav a:hover {
 
 .faq {
   background:#FFF9BF;
+  margin: 0 auto;
 }
 
 .faq h1 {
@@ -485,7 +498,7 @@ nav a:hover {
   background: #16213E;
   padding: 15px;
   margin: 5px;
-  border-radius: 50px;
+  border-radius: 60px;
 }
 
 .faq-card-2 h2 {
@@ -495,7 +508,7 @@ nav a:hover {
   background: #16213E;
   padding: 15px;
   margin: 5px;
-  border-radius: 50px;
+  border-radius: 60px;
 }
 
 .faq-card-3 h2 {
@@ -505,7 +518,7 @@ nav a:hover {
   background: #16213E;
   padding: 15px;
   margin: 5px;
-  border-radius: 50px;
+  border-radius: 60px;
 }
 
 .faq-card-4 h2 {
@@ -515,7 +528,7 @@ nav a:hover {
   background: #16213E;
   padding: 15px;
   margin: 5px;
-  border-radius: 50px;
+  border-radius: 60px;
 }
 
 .faq-card-1 h3 {
@@ -569,6 +582,7 @@ nav a:hover {
   display: flex;
   align-items: center;
   width: 800px;
+  border-radius: 15px;
 }
 
 .faq-card-2 {
@@ -578,6 +592,7 @@ nav a:hover {
   display: flex;
   align-items: center;
   width: 800px;
+  border-radius: 15px;
 }
 
 .faq-card-3 {
@@ -587,6 +602,7 @@ nav a:hover {
   display: flex;
   align-items: center;
   width: 800px;
+  border-radius: 15px;
 }
 
 .faq-card-4 {
@@ -596,6 +612,7 @@ nav a:hover {
   display: flex;
   align-items: center;
   width: 800px;
+  border-radius: 15px;
 }
 
 /*Footer*/
@@ -605,6 +622,8 @@ nav a:hover {
   color: white;
   display: flex;
   align-items: center;
+  margin: 0 auto;
+  padding: 15px;
 }
 
 .footer h2 {
@@ -623,8 +642,8 @@ nav a:hover {
 }
 
 .footer-images {
-  width: 50%;
-  height: 50%;
+  width: 20%;
+  height: 20%;
 }
 
 /*Food Offerings Page*/
@@ -731,6 +750,7 @@ nav a:hover {
 
 .weather p {
   font-family: 'HeadlandOne', serif;
+  line-height: 2.5px;
 }
 
 .weather {
