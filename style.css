@@ -244,26 +244,36 @@ nav a:hover {
 .introduction {
     padding: 10px;
     margin: 5px auto;
-    display: flex;
-    align-items: flex-start;
 }
 
 .introduction h3 {
     font-family: 'Bebas Neue', sans-serif;
     letter-spacing: 1.2px;
     font-size: 1.6em;
-    margin-left: 230px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .introduction p {
     font-family: 'HeadlandOne', serif;
-    font-size: 20px;   
+    font-size: 20px; 
+    line-height: 1.5em;
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .intro-images {
   margin: 8px; 
   width: 100%;
   display: flex;
+  justify-content: center;
 }
 
 .intro-images img {
@@ -277,8 +287,9 @@ nav a:hover {
 .testimonials {
   background: #FFF9BF;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 15px;
 }
 
 .testimonials h1 {
@@ -309,33 +320,41 @@ nav a:hover {
 .t-card-1 {
   background: #16213E;
   padding: 20px;
-  margin: 15px auto;
+  margin:0;
   width: 35%;
   height: 50%;
+  display: flex;
+  flex-direction: column;
 }
 
 .t-card-2 {
   background:#994D8C;
   padding: 20px;
-  margin: 15px auto;
+  margin:0;
   width: 35%;
   height: 50%;
+  display: flex;
+  flex-direction: column;
 }
 
 .t-card-3 {
   background:#794969;
   padding: 20px;
-  margin: 15px auto;
+  margin:0;
   width: 35%;
   height: 50%;
+  display: flex;
+  flex-direction: column;
 }
 
 .t-card-4 {
   background:#406080;
   padding: 20px; 
-  margin: 15px auto;
+  margin:0;
   width: 35%;
   height: 50%;
+  display: flex;
+  flex-direction: column;
 }
 
 /*Program Details*/
@@ -495,7 +514,8 @@ nav a:hover {
 
 .faq {
   background:#FFF9BF;
-  margin: 0 auto;
+  background-size: cover;
+  margin-bottom: 0px;
 }
 
 .faq h1 {
@@ -621,8 +641,9 @@ nav a:hover {
 
 .faq-card-4 {
   background: #967399;
-  padding: 10px;
+  padding: 15px;
   margin: 10px auto;
+  margin-bottom: 0px;
   display: flex;
   align-items: center;
   width: 800px;
@@ -636,7 +657,8 @@ nav a:hover {
   color: white;
   display: flex;
   align-items: center;
-  margin: 0 auto;
+  justify-content: center;
+  margin-top: 0;
   padding: 15px;
 }
 
