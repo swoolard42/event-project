@@ -286,10 +286,13 @@ nav a:hover {
 
 .testimonials {
   background: #FFF9BF;
+  padding: 15px;
+}
+
+.testimonial-cards {
   display: flex;
   flex-wrap: wrap;
-  align-content: center;
-  padding: 15px;
+  justify-content: center;
 }
 
 .testimonials h1 {
@@ -324,9 +327,6 @@ nav a:hover {
   margin: 5px;;
   width: 35%;
   height: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .t-card-2 {
@@ -335,31 +335,24 @@ nav a:hover {
   margin: 5px;
   width: 35%;
   height: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .t-card-3 {
   background:#794969;
   padding: 20px;
   margin: 5px;
+  margin-bottom: 10px;
   width: 35%;
   height: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .t-card-4 {
   background:#406080;
   padding: 20px; 
   margin: 5px;
+  margin-bottom: 10px;
   width: 35%;
   height: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 /*Program Details*/
@@ -468,7 +461,7 @@ nav a:hover {
   width: 40%;
   height: 20%;
   padding: 15px;
-  margin: 10px auto;
+  margin: 5px auto;
 }
 
 .perform-card-2 {
@@ -479,7 +472,7 @@ nav a:hover {
   width: 40%;
   height: 20%;
   padding: 15px;
-  margin: 10px auto;
+  margin: 5px auto;
 }
 
 .perform-card-3 {
@@ -490,7 +483,7 @@ nav a:hover {
   width: 40%;
   height: 20%;
   padding: 15px;
-  margin: 10px auto;
+  margin: 5px auto;
 }
 
 .perform-card-4 {
@@ -501,7 +494,7 @@ nav a:hover {
   width: 40%;
   height: 20%;
   padding: 15px;
-  margin: 10px auto;
+  margin: 5px auto;
 }
 
 .perform-card-5 {
@@ -512,13 +505,18 @@ nav a:hover {
   width: 40%;
   height: 20%;
   padding: 15px;
-  margin: 10px auto;
+  margin: 5px auto;
 }
 
 .perform-cards {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
+}
+
+.performers img {
+width: 20%;
+height: 20%;
 }
 
 /*Frequently Asked Questions*/
@@ -528,6 +526,7 @@ nav a:hover {
   background-size: cover;
   margin-bottom: 0px;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
   padding: 15px;
@@ -545,9 +544,10 @@ nav a:hover {
   font-size: 2em;
   color: white;
   background: #16213E;
-  padding: 15px;
-  margin: 5px;
-  border-radius: 60px;
+  padding: 30px;
+  margin: 10px;
+  margin-bottom: 50px;
+  border-radius: 150px;
 }
 
 .faq-card-2 h2 {
@@ -555,9 +555,10 @@ nav a:hover {
   font-size: 2em;
   color: white;
   background: #16213E;
-  padding: 15px;
-  margin: 5px;
-  border-radius: 60px;
+  padding: 30px;
+  margin: 10px;
+  margin-bottom: 50px;
+  border-radius: 150px;
 }
 
 .faq-card-3 h2 {
@@ -565,9 +566,10 @@ nav a:hover {
   font-size: 2em;
   color: white;
   background: #16213E;
-  padding: 15px;
-  margin: 5px;
-  border-radius: 60px;
+  padding: 30px;
+  margin: 10px;
+  margin-bottom: 50px;
+  border-radius: 150px;
 }
 
 .faq-card-4 h2 {
@@ -575,15 +577,17 @@ nav a:hover {
   font-size: 2em;
   color: white;
   background: #16213E;
-  padding: 15px;
-  margin: 5px;
-  border-radius: 60px;
+  padding: 30px;
+  margin: 10px;
+  margin-bottom: 50px;
+  border-radius: 150px;
 }
 
 .faq-card-1 h3 {
   font-family: 'Bebas Neue', sans-serif;
   letter-spacing: 1.2px;
   color: white;
+  text-align: center;
 }
 
 .faq-card-2 h3 {
@@ -673,7 +677,7 @@ nav a:hover {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
-  margin-top: 0;
+  align-items: center;
   padding: 15px;
 }
 
@@ -690,11 +694,12 @@ nav a:hover {
 .footer h4 {
   font-family: 'HeadlandOne', serif;
   font-size: 0.8em;
+  padding: 10px;
 }
 
-.footer-images {
-  width: 20%;
-  height: 20%;
+.footer-images img {
+width: 20%;
+padding: 5px;
 }
 
 /*Food Offerings Page*/
