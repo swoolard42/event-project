@@ -455,20 +455,20 @@ nav a:hover {
 
 .perform-card-1 {
   background: #FFE666;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 40%;
   height: 20%;
   padding: 15px;
   margin: 5px auto;
 }
 
+.p-card-1-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
 .perform-card-2 {
   background: #FFE666;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 40%;
   height: 20%;
   padding: 15px;
@@ -477,9 +477,6 @@ nav a:hover {
 
 .perform-card-3 {
   background: #FFE666;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 40%;
   height: 20%;
   padding: 15px;
@@ -488,9 +485,6 @@ nav a:hover {
 
 .perform-card-4 {
   background: #FFE666;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 40%;
   height: 20%;
   padding: 15px;
@@ -499,9 +493,6 @@ nav a:hover {
 
 .perform-card-5 {
   background: #FFE666;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 40%;
   height: 20%;
   padding: 15px;
@@ -511,7 +502,7 @@ nav a:hover {
 .perform-cards {
   display: flex;
   flex-wrap: wrap;
-  align-content: center;
+  justify-content: center;
 }
 
 .performers img {
@@ -525,11 +516,13 @@ height: 20%;
   background:#FFF9BF;
   background-size: cover;
   margin-bottom: 0px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: center;
   padding: 15px;
+}
+
+.faq-cards  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .faq h1 {
@@ -544,9 +537,9 @@ height: 20%;
   font-size: 2em;
   color: white;
   background: #16213E;
+  width: fit-content;
   padding: 30px;
   margin: 10px;
-  margin-bottom: 50px;
   border-radius: 150px;
 }
 
@@ -555,9 +548,10 @@ height: 20%;
   font-size: 2em;
   color: white;
   background: #16213E;
+  width: fit-content;
   padding: 30px;
   margin: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   border-radius: 150px;
 }
 
@@ -566,9 +560,10 @@ height: 20%;
   font-size: 2em;
   color: white;
   background: #16213E;
+  width: fit-content;
   padding: 30px;
   margin: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   border-radius: 150px;
 }
 
@@ -577,9 +572,10 @@ height: 20%;
   font-size: 2em;
   color: white;
   background: #16213E;
+  width: fit-content;
   padding: 30px;
   margin: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   border-radius: 150px;
 }
 
@@ -587,53 +583,58 @@ height: 20%;
   font-family: 'Bebas Neue', sans-serif;
   letter-spacing: 1.2px;
   color: white;
-  text-align: center;
+  padding: 5px;
 }
 
 .faq-card-2 h3 {
   font-family: 'Bebas Neue', sans-serif;
   letter-spacing: 1.2px;
   color: white;
+  padding: 5px;
 }
 
 .faq-card-3 h3 {
   font-family: 'Bebas Neue', sans-serif;
   letter-spacing: 1.2px;
   color: white;
+  padding: 5px;
 }
 
 .faq-card-4 h3 {
   font-family: 'Bebas Neue', sans-serif;
   letter-spacing: 1.2px;
   color: white;
+  padding: 5px;
 }
 
 .faq-card-1 p {
   font-family: 'HeadlandOne', serif;
   color: white;
+  padding: 5px;
 }
 
 .faq-card-2 p {
   font-family: 'HeadlandOne', serif;
   color: white;
+  padding: 5px;
 }
 
 .faq-card-3 p {
   font-family: 'HeadlandOne', serif;
   color: white;
+  padding: 5px;
 }
 
 .faq-card-4 p {
   font-family: 'HeadlandOne', serif;
   color: white;
+  padding: 5px;
 }
 
 .faq-card-1 {
   background: #967399;
   padding: 10px;
   margin: 10px auto;
-  display: flex;
-  align-items: center;
   width: 800px;
   border-radius: 15px;
 }
@@ -642,8 +643,6 @@ height: 20%;
   background: #967399;
   padding: 10px;
   margin: 10px auto;
-  display: flex;
-  align-items: center;
   width: 800px;
   border-radius: 15px;
 }
@@ -652,8 +651,6 @@ height: 20%;
   background: #967399;
   padding: 10px;
   margin: 10px auto;
-  display: flex;
-  align-items: center;
   width: 800px;
   border-radius: 15px;
 }
@@ -663,8 +660,6 @@ height: 20%;
   padding: 15px;
   margin: 10px auto;
   margin-bottom: 0px;
-  display: flex;
-  align-items: center;
   width: 800px;
   border-radius: 15px;
 }
