@@ -242,35 +242,42 @@ nav a:hover {
 /*Introduction*/
 
 .introduction {
-  width: 80%;
     padding: 5;
     margin: 5;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+}
+
+.intro-content  {
+  text-align: center;
+  justify-content: center;
 }
 
 .introduction h3 {
     font-family: 'Bebas Neue', sans-serif;
     letter-spacing: 1.2px;
-    font-size: 1.6em;
-    
+    font-size: 1.8em;
+    margin-top: 15px;
+    padding-right: 10px;  
 }
 
 .introduction p {
     font-family: 'HeadlandOne', serif;
     font-size: 20px;
-    
+    margin-bottom: 15px;
+    width: 100%;
 }
 
 .intro-images {
-  margin: 8px; 
+  margin: 15px; 
 }
 
 .intro-images img {
+  margin: 5px;
   max-width: 100%;
   max-height: 100%;
-  margin: 5px;
+  align-items: center;
 }
 
 /*Testimonials*/
