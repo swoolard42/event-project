@@ -290,7 +290,7 @@ nav a:hover {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 2.5em;
   letter-spacing: 1.2px;
-  margin: 20px;
+  margin: 15px;
   text-align: center;
 }
 
@@ -409,6 +409,11 @@ nav a:hover {
   text-align: center;
 }
 
+.performers p {
+  font-family: 'HeadlandOne', serif;
+  font-size: 16px;
+}
+
 /* .perform-card-1 h3 {
   font-family: 'Bebas Neue', sans-serif;
   letter-spacing: 1.2px;
@@ -508,132 +513,84 @@ nav a:hover {
 
 .faq {
   background:#FFF9BF;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .faq-cards {
   display: flex;
-  flex-direction: column;
-flex-basis: auto;
-flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .faq h1 {
   font-family: 'Bebas Neue', sans-serif;
   letter-spacing: 1.2px;
   font-size: 2.5em;
+  margin: 15px;
+  padding: 10px;
   text-align: center; 
 }
 
-.faq-card-1 h2 {
+.faq h2 {
   font-family: 'Inria Sans', sans-serif;
   font-size: 2em;
+  text-align: center;
+  width: fit-content;
+  border-radius: 30px;
   color: white;
   background: #16213E;
+  padding: 20px;
 }
 
-.faq-card-2 h2 {
-  font-family: 'Inria Sans', sans-serif;
-  font-size: 2em;
-  color: white;
-  background: #16213E;
-}
-
-.faq-card-3 h2 {
-  font-family: 'Inria Sans', sans-serif;
-  font-size: 2em;
-  color: white;
-  background: #16213E;
-}
-
-.faq-card-4 h2 {
-  font-family: 'Inria Sans', sans-serif;
-  font-size: 2em;
-  color: white;
-  background: #16213E;
-}
-
-.faq-card-1 h3 {
+.faq h3 {
   font-family: 'Bebas Neue', sans-serif;
   letter-spacing: 1.2px;
+  margin-top: 5px;
+
   color: white;
+  text-align: center;
 }
 
-.faq-card-2 h3 {
-  font-family: 'Bebas Neue', sans-serif;
-  letter-spacing: 1.2px;
-  color: white;
-}
-
-.faq-card-3 h3 {
-  font-family: 'Bebas Neue', sans-serif;
-  letter-spacing: 1.2px;
-  color: white;
-}
-
-.faq-card-4 h3 {
-  font-family: 'Bebas Neue', sans-serif;
-  letter-spacing: 1.2px;
-  color: white;
-}
-
-.faq-card-1 p {
+.faq p {
   font-family: 'HeadlandOne', serif;
   color: white;
-}
-
-.faq-card-2 p {
-  font-family: 'HeadlandOne', serif;
-  color: white;
-}
-
-.faq-card-3 p {
-  font-family: 'HeadlandOne', serif;
-  color: white;
-}
-
-.faq-card-4 p {
-  font-family: 'HeadlandOne', serif;
-  color: white;
+  line-height: 1.3em;
+  text-align: center;
 }
 
 .faq-card-1 {
   background: #967399;
-  padding: 10px;
-  margin: 10px auto;
-  display: flex;
-  align-items: center;
-  width: 65%;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 10px;
+  width: 55%;
   height: 60%;
 }
 
 .faq-card-2 {
   background: #967399;
-  padding: 10px;
-  margin: 10px auto;
-  display: flex;
-  align-items: center;
-  width: 65%;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 10px;
+  width: 55%;
   height: 60%;
 }
 
 .faq-card-3 {
   background: #967399;
-  padding: 10px;
-  margin: 10px auto;
-  display: flex;
-  align-items: center;
-  width: 65%;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 10px;
+  width: 55%;
   height: 60%;
 }
 
 .faq-card-4 {
   background: #967399;
-  padding: 10px;
-  margin: 10px auto;
-  display: flex;
-  align-items: center;
-  width: 65%;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 10px;
+  width: 55%;
   height: 60%;
 }
 
