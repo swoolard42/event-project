@@ -34,7 +34,8 @@
     font-size: 1.1em;
     color: white;
     text-align: center;
-    position: fixed;
+    position: sticky;
+    top: 0;
     width: 100%;
     z-index: 999;
     padding: 0;
@@ -728,6 +729,12 @@ nav a:hover {
 
 .location {
   background-color: #967399;
+  padding: 15px;
+  width: 60%;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .location-img-map img {
@@ -735,7 +742,7 @@ nav a:hover {
   height: 35%;
 }
 
-.location h1 {
+.location-header  {
   font-family: 'Bebas Neue', sans-serif;
   letter-spacing: 1.2px;
   text-align: center;
@@ -751,5 +758,37 @@ nav a:hover {
   font-family: 'HeadlandOne',serif;
   color: white;
 }
+
+.weather {
+  background: #FFE666;
+  padding: 15px;
+  margin: 10px auto;
+  width: 850px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-header {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 1.2px;
+  text-align: center;
+}
+
+.weather h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2.2em;
+  letter-spacing: 1.2px;
+}
+
+.weather p {
+  font-family: 'HeadlandOne',serif;
+  font-size: 1.3em;
+}
+
+
 
 /*Media Queries*/
