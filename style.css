@@ -668,6 +668,9 @@ nav a:hover {
   font-family: 'Bebas Neue', sans-serif;
   background: #FFF38C;
   color: black;
+  text-align: center;
+  height: fit-content;
+  width: 75%;
   padding: 10px;
   letter-spacing: 1.2px;
   font-size: 1.8em;
@@ -675,6 +678,7 @@ nav a:hover {
 
 .food-card-1 p {
   font-family: 'HeadlandOne',serif;
+  text-align: center;
 }
 
 .food-card-2 {
@@ -699,6 +703,9 @@ nav a:hover {
   font-family: 'Bebas Neue', sans-serif;
   color: black;
   background: #FFF38C;
+  text-align: center;
+  height: fit-content;
+  width: 75%;
   padding: 10px;
   letter-spacing: 1.2px;
   font-size: 1.8em;
@@ -706,6 +713,7 @@ nav a:hover {
 
 .food-card-2 p {
   font-family: 'HeadlandOne',serif;
+  text-align: center;
 }
 
 .food-card-3 {
@@ -730,6 +738,9 @@ nav a:hover {
   font-family: 'Bebas Neue', sans-serif;
   color: black;
   background: #FFF38C;
+  text-align: center;
+  height: fit-content;
+  width: 75%;
   padding: 10px;
   letter-spacing: 1.2px;
   font-size: 1.8em;
@@ -737,6 +748,7 @@ nav a:hover {
 
 .food-card-3 p {
   font-family: 'HeadlandOne',serif;
+  text-align: center;
 }
 
 /*Location Page*/
