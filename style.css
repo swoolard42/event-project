@@ -608,29 +608,34 @@ nav a:hover {
 .footer {
   background: #406080;
   color: white;
-  align-items: center;
-  justify-content: center;
+  display: flex;
 }
 
 .footer h2 {
   font-family: 'Bebas Neue', sans-serif;
   letter-spacing: 1.2px;
+  padding: 10px;
+  text-align: left;
 }
 
 .footer h3 {
   font-family: 'Inria Sans', sans-serif;
   font-size: 1.4em;
   padding: 10px;
+  text-align: right;
 }
 
 .footer h4 {
   font-family: 'HeadlandOne', serif;
   font-size: 0.8em;
+  padding: 10px;
+  text-align: center;
 }
 
 .footer-images img {
   width: 3%;
   padding: 5px;
+  margin: 5px;
 }
 
 /*Food Offerings Page*/
@@ -647,20 +652,23 @@ nav a:hover {
   color: white;
   background: #967399;
   display: flex;
-  flex-direction: column;
-  width: 65%;
+  flex-wrap: wrap;
+  justify-content: left;
+  width: 75%;
   height: 60%;
 }
 
 .food-card-1 img {
   width: 25%;
   height: 25%;
+  padding: 5px;
 }
 
 .food-card-1 h3 {
   font-family: 'Bebas Neue', sans-serif;
+  background: #FFF38C;
   color: black;
-  background-color:#FFF38C;
+  padding: 10px;
   letter-spacing: 1.2px;
   font-size: 1.8em;
 }
@@ -675,20 +683,23 @@ nav a:hover {
   color: white;
   background: #967399;
   display: flex;
-  flex-direction: column;
-  width: 65%;
+  flex-wrap: wrap;
+  justify-content: left;
+  width: 75%;
   height: 60%;
 }
 
 .food-card-2 img {
   width: 25%;
   height: 25%;
+  padding: 5px;
 }
 
 .food-card-2 h3 {
   font-family: 'Bebas Neue', sans-serif;
   color: black;
-  background-color:#FFF38C;
+  background: #FFF38C;
+  padding: 10px;
   letter-spacing: 1.2px;
   font-size: 1.8em;
 }
@@ -703,20 +714,23 @@ nav a:hover {
   color: white;
   background: #967399;
   display: flex;
-  flex-direction: column;
-  width: 65%;
+  flex-wrap: wrap;
+  justify-content: left;
+  width: 75%;
   height: 60%;
 }
 
 .food-card-3 img {
   width: 25%;
   height: 25%;
+  padding: 5px;
 }
 
 .food-card-3 h3 {
   font-family: 'Bebas Neue', sans-serif;
   color: black;
-  background-color:#FFF38C;
+  background: #FFF38C;
+  padding: 10px;
   letter-spacing: 1.2px;
   font-size: 1.8em;
 }
