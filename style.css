@@ -756,6 +756,7 @@ nav a:hover {
 .location {
   background-color: #967399;
   padding: 15px;
+  margin-left: 310px;
   width: 60%;
   justify-content: center;
   display: flex;
