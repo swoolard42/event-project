@@ -267,7 +267,8 @@ nav a:hover {
     font-family: 'HeadlandOne', serif;
     font-size: 20px;
     margin-bottom: 15px;
-    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
 .intro-images {
@@ -422,101 +423,6 @@ nav a:hover {
   font-size: 16px;
 }
 
-/* .perform-card-1 h3 {
-  font-family: 'Bebas Neue', sans-serif;
-  letter-spacing: 1.2px;
-}
-
-.perform-card-2 h3 {
-  font-family: 'Bebas Neue', sans-serif;
-  letter-spacing: 1.2px;
-}
-
-.perform-card-3 h3 {
-  font-family: 'Bebas Neue', sans-serif;
-  letter-spacing: 1.2px;
-}
-
-.perform-card-4 h3 {
-  font-family: 'Bebas Neue', sans-serif;
-  letter-spacing: 1.2px;
-}
-
-.perform-card-5 h3 {
-  font-family: 'Bebas Neue', sans-serif;
-  letter-spacing: 1.2px;
-}
-
-.perform-card-1 p {
-  font-family: 'HeadlandOne', serif;
-  font-size: 16px;
-}
-
-.perform-card-2 p {
-  font-family: 'HeadlandOne', serif;
-  font-size: 16px;
-}
-
-.perform-card-3 p {
-  font-family: 'HeadlandOne', serif;
-  font-size: 16px;
-}
-
-.perform-card-4 p {
-  font-family: 'HeadlandOne', serif;
-  font-size: 16px;
-}
-
-.perform-card-5 p {
-  font-family: 'HeadlandOne', serif;
-  font-size: 16px;
-}
-
-.perform-card-1 {
-  background: #FFE666;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 15px;
-  margin: 10px auto;
-}
-
-.perform-card-2 {
-  background: #FFE666;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 15px;
-  margin: 10px auto;
-}
-
-.perform-card-3 {
-  background: #FFE666;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 15px;
-  margin: 10px auto;
-}
-
-.perform-card-4 {
-  background: #FFE666;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 15px;
-  margin: 10px auto;
-}
-
-.perform-card-5 {
-  background: #FFE666;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 15px;
-  margin: 10px auto;
-} */
-
 /*Frequently Asked Questions*/
 
 .faq {
@@ -608,7 +514,20 @@ nav a:hover {
 .footer {
   background: #406080;
   color: white;
+}
+
+.footer-header  {
+display: flex;
+}
+
+.footer-copyright {
+display: flex;
+justify-content: center;
+}
+
+.footer-social-media {
   display: flex;
+  justify-content: right;
 }
 
 .footer h2 {
@@ -621,19 +540,20 @@ nav a:hover {
 .footer h3 {
   font-family: 'Inria Sans', sans-serif;
   font-size: 1.4em;
+  margin-right: 60px;
   padding: 10px;
   text-align: right;
+  
 }
 
 .footer h4 {
   font-family: 'HeadlandOne', serif;
   font-size: 0.8em;
   padding: 10px;
-  text-align: center;
 }
 
 .footer-images img {
-  width: 3%;
+  object-fit: cover;
   padding: 5px;
   margin: 5px;
 }
@@ -696,8 +616,6 @@ object-fit: cover;
   color: white;
   background: #967399;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: left;
   width: 75%;
   height: 60%;
 }
@@ -733,8 +651,6 @@ object-fit: cover;
   color: white;
   background: #967399;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: left;
   width: 75%;
   height: 60%;
 }
@@ -767,24 +683,31 @@ object-fit: cover;
 
 .location {
   background-color: #967399;
-  padding: 15px;
-  margin-left: 310px;
-  width: 60%;
-  justify-content: center;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
+  padding: 15px;
+  margin: 10px auto;
+  width: 60%;
 }
 
 .location-content {
-  display: flex;
   flex: 2;
   text-align: center;
 }
 
+.location-icon {
+  object-fit: cover;
+  justify-content: center;
+  margin: 10px;
+  margin-top: 0px;
+}
 
 .location-img-map {
   flex: 1;
+  gap: 1em;
+}
+
+.location-img-map img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -794,6 +717,7 @@ object-fit: cover;
   font-family: 'Bebas Neue', sans-serif;
   letter-spacing: 1.2px;
   text-align: center;
+  margin: 10px;
 }
 
 .location h2 {
@@ -813,10 +737,6 @@ object-fit: cover;
   margin: 10px auto;
   width: 850px;
   height: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
@@ -834,6 +754,7 @@ object-fit: cover;
   font-family: 'Bebas Neue', sans-serif;
   letter-spacing: 1.2px;
   text-align: center;
+  margin: 10px;
 }
 
 .weather h2 {
