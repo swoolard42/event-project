@@ -360,13 +360,14 @@ nav a:hover {
   font-family: 'Bebas Neue', sans-serif;
   letter-spacing: 1.2px;
   font-size: 2.5em;
+  padding: 15px;
 }
 
 .program-details p {
   font-family: 'HeadlandOne', serif;
   text-align: center;
-  padding: 50px;
-  padding-top: 30px;
+  padding: 30px;
+  padding-top: 0px;
   line-height: 1.5em;
   font-size: 18px;
 }
@@ -379,14 +380,14 @@ nav a:hover {
 }
 
 .carousel-cell {
-  width: 25%; /* full width */
-  height: 300px; /* height of carousel */
+  width: 50%; /* full width */
+  height: 400px; /* height of carousel */
   margin-right: 10px;
 }
 
 .carousel-cell img {
   width: 100%;
-  height: 70%;
+  height: 75%;
   object-fit: cover;
 }
 
@@ -575,6 +576,7 @@ justify-content: center;
   font-family: 'HeadlandOne', serif;
   font-size: 0.8em;
   padding: 10px;
+  margin-bottom: 20px;
 }
 
 .footer-images img {
