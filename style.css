@@ -810,13 +810,26 @@ object-fit: cover;
 /*Media Queries*/
 
 /*Media Query for registration*/
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
 
 }
 
 /*Media Query for introduction*/
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.intro-images {
+  display: flex;
+  flex-direction: row;
+}
+
+.intro-images img {
+width: 55%;
+}
 }
 
 /*Media Query for testimonial cards*/
@@ -824,7 +837,28 @@ object-fit: cover;
  .testimonial-cards {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-content: center;
+ }
+
+ .testimonial-cards img {
+  width: 30%;
+  height: 30%;
+ }
+
+ .t-card-1 {
+  width: 70%;
+ }
+
+ .t-card-2 {
+  width: 70%;
+ }
+
+ .t-card-3 {
+  width: 70%;
+ }
+
+ .t-card-4 {
+  width: 70%;
  }
 }
 
@@ -833,6 +867,8 @@ object-fit: cover;
   .perform-card {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    width: 70%;
   }
 }
 
@@ -842,6 +878,22 @@ object-fit: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .faq-card-1 {
+    width: 65%;
+  }
+
+  .faq-card-2 {
+    width: 65%;
+  }
+
+  .faq-card-3 {
+    width: 65%;
+  }
+
+  .faq-card-4 {
+    width: 65%;
   }
 }
 
