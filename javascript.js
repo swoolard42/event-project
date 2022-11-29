@@ -1,4 +1,5 @@
-<script src= "https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+<script src="/path/to/flickity.pkgd.min.js"></script>
 
 var elem = document.querySelector('.main-carousel');
 var flkty = new Flickity( elem, {
