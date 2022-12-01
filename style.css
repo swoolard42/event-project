@@ -687,6 +687,17 @@ object-fit: cover;
   text-align: center;
 }
 
+.location-title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 5px;
+}
+
+.location-title h2 {
+  margin-top: 15px;
+}
+
 .location-icon {
   object-fit: cover;
   justify-content: center;
@@ -962,16 +973,22 @@ object-fit: cover;
   .food-card-1 {
     display: flex;
     flex-direction: column;
+    padding: 15px;
+    width: 85%;
   }
 
   .food-card-2 {
     display: flex;
     flex-direction: column;
+    padding: 15px;
+    width: 85%;
   }
 
   .food-card-3 {
     display: flex;
     flex-direction: column;
+    padding: 15px;
+    width: 85%;
   }
 }
 
@@ -980,6 +997,11 @@ object-fit: cover;
  .location {
   background-size: cover;
   width: 80%;
+ }
+
+ .location-title {
+  display: flex;
+  flex-direction: column;
  }
 
  .location p {
