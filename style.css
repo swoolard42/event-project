@@ -202,6 +202,7 @@ nav a:hover {
 .intro-content  {
   text-align: center;
   justify-content: center;
+  width: 80%;
 }
 
 .introduction h3 {
@@ -215,6 +216,7 @@ nav a:hover {
 .introduction p {
     font-family: 'HeadlandOne', serif;
     font-size: 20px;
+    line-height: 1.5em;
     margin-bottom: 15px;
     padding-right: 50px;
     padding-left: 50px;
@@ -317,7 +319,7 @@ nav a:hover {
   text-align: center;
   padding: 30px;
   padding-top: 45px;
-  line-height: 1.5em;
+  line-height: 2em;
   font-size: 18px;
 }
 
