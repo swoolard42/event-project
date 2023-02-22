@@ -252,6 +252,7 @@ nav a:hover {
   letter-spacing: 1.2px;
   margin: 15px;
   text-align: center;
+  color: #16213E;
 }
 
 .testimonials h4 {
@@ -312,6 +313,7 @@ nav a:hover {
   letter-spacing: 1.2px;
   font-size: 2.5em;
   padding: 15px;
+  color: #16213E;
 }
 
 .program-details p {
@@ -398,6 +400,7 @@ nav a:hover {
   letter-spacing: 1.2px;
   font-size: 2.5em;
   text-align: center;
+  color: #16213E;
 }
 
 .performers p {
@@ -416,6 +419,7 @@ nav a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom: 10px;
 }
 
 .faq h1 {
@@ -424,7 +428,9 @@ nav a:hover {
   font-size: 2.5em;
   margin: 15px;
   padding: 10px;
+  padding-top: 35px;
   text-align: center; 
+  color: #16213E;
 }
 
 .faq h2 {
@@ -480,6 +486,7 @@ nav a:hover {
   margin: 10px;
   width: 35%;
   height: 70%;
+  padding-bottom: 10px;
 }
 
 .faq-card-4 {
@@ -489,6 +496,7 @@ nav a:hover {
   margin: 10px;
   width: 35%;
   height: 70%;
+  padding-bottom: 10px;
 }
 
 /*Footer*/
@@ -507,6 +515,13 @@ nav a:hover {
 
 .footer-header  {
 display: flex;
+}
+
+.footer-header img {
+  object-fit: cover;
+  width: 10%;
+  padding: 5px;
+  margin: 5px;
 }
 
 .footer-copyright {
@@ -529,7 +544,7 @@ justify-content: center;
 .footer h3 {
   font-family: 'Inria Sans', sans-serif;
   font-size: 1.4em;
-  margin-right: 60px;
+  margin-right: 110px;
   padding: 10px;
   text-align: right;
   
@@ -542,10 +557,12 @@ justify-content: center;
   margin-bottom: 20px;
 }
 
+
 .footer-images img {
   object-fit: cover;
+  width: 15%;
   padding: 5px;
-  margin: 5px;
+  margin: 5px; 
 }
 
 /*Food Offerings Page*/
